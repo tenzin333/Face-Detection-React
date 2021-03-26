@@ -1,0 +1,97 @@
+*{
+  font-size: 62.4%;
+}
+
+
+
+body,html {
+  max-height:100%;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:  linear-gradient( 89deg,#12c2e9,#c471ed,#f64f59 );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 4rem;
+  
+}
+
+.logo{
+  display:flex;
+ 
+  justify-content: flex-start;
+  font-size: 3rem;
+
+}
+
+ 
+.imageForm { 
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+
+}
+
+
+.imageForm .rank{
+  font-size: 1.5rem;
+
+}
+
+.input-container{
+  background-color: yellow ;
+  padding: 20px;
+  
+}
+
+ .input-container input{
+
+   flex-direction: row;
+    width: 70%;
+    height: 2rem;
+    
+}
+
+
+
+ 
+.input-container button{
+  height: 2.6rem;
+  width: 6rem;
+  max-width: 10rem;
+  cursor: pointer;
+  transition: all 0.7s ease-in;
+}
+
+.input-container button:hover{
+  transform:  scale(1.2);
+
+}
+
+
+.rank-name{
+  color: white;
+  font-weight: 700;  
+  padding-top: 6rem ;
+  font-size: 2rem;
+}
+
+
+
+.face-recog{
+  justify-content: center;
+  max-height: 500px;
+  max-width: 500px;
+}
